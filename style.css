@@ -1,0 +1,70 @@
+body{
+    background-color: #647299; 
+}
+.cal{
+    margin-top: 100px;
+}
+.cal .heading{
+    margin-left: 550px;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+}
+
+.dis{
+    height: 100px;
+    background-color: #181F32;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.dis #display{
+    width: 95%;
+    margin-top: 32px;
+    margin-left: 1px;
+    text-align: right;
+    font-size: 40px;    
+    background-color: #181F32;
+    color: #FFFFFF;
+    border: none;
+}
+.container{
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    justify-content: center;
+    background-color: #252D44;
+    margin-left: 550px;
+    margin-right: 550px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-radius: 10px;
+    gap: 10px;
+}
+.container .delete{
+    background-color: #647299;
+    color: white;
+}
+.btn{
+    color: #3B4664;
+    
+}
+.item{
+    font-size: 22px;
+    border-radius: 9px;
+    font-weight: bold;
+    border: none;
+}
+.set{
+    grid-area: 5/1/5/3;
+    background-color: #647299;
+    color: white;
+}
+.equal{
+    grid-area: 5/3/5/5;
+    background-color:  #D13F30;
+    color: white;
+
+}
